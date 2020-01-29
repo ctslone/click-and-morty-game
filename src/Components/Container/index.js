@@ -4,7 +4,9 @@ import "./style.css";
 function Container(props) {
     // return <div className="wrapper">{props.children}</div>;
     return (
-        <div className="container">{props.children}</div>
+        <div className="container">
+            <div className="row">{props.children}</div>
+        </div>
     )
 }
 
