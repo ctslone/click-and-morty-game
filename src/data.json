@@ -1,0 +1,22 @@
+[
+    {
+        "url": "/Assets/beth.png",
+        "id": 1,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/birdperson.png",
+        "id": 2,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/evilmorty.png",
+        "id": 3,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/goldenfold.png",
+        "id": 4,
+        "clicked": "false"
+    }
+]

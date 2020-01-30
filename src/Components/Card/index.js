@@ -1,12 +1,11 @@
 import React from "react";
 import "./style.css";
 
-function Card(props) {
-    // return <div className="wrapper">{props.children}</div>;
+const Card = (props) => {
     return (
-            <div className="card col-2 ml-5 mr-3 mb-5">
-                <img src="https://place-hold.it/300" className="card-img-top" alt="..." />
-            </div>
+        <div className="card col-2 ml-3 mr-3 mb-3">
+            <img onClick={() => props.handleClick(props.id)} clicked={props.clicked} key={props.id} id={props.id} src={props.url} className="card-img-top" alt="..." />
+        </div>
     )
 }
 
