@@ -18,5 +18,45 @@
         "url": "/Assets/goldenfold.png",
         "id": 4,
         "clicked": "false"
+    },
+    {
+        "url": "/Assets/head.png",
+        "id": 5,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/jerry.png",
+        "id": 6,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/jessica.png",
+        "id": 7,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/meeseeks.png",
+        "id": 8,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/morty.png",
+        "id": 9,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/pbh.png",
+        "id": 10,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/rick.png",
+        "id": 11,
+        "clicked": "false"
+    },
+    {
+        "url": "/Assets/summer.png",
+        "id": 12,
+        "clicked": "false"
     }
 ]

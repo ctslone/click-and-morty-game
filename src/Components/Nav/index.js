@@ -11,7 +11,7 @@ function Nav(props) {
                         <a href="/">Click-and-Morty</a>
                     </li>
                     <li>Click on an image to begin!</li>
-                    <li>Score</li>
+                    <li>Score: {props.score} | Top Score: {props.topscore}</li>
                 </ul>
             </nav>
 

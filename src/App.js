@@ -11,7 +11,9 @@ import "./App.css";
 class App extends Component {
 
   state = {
-    data: data
+    data: data,
+    score: 0,
+    topscore: 0
   }
 
   handleClick = id => {
@@ -21,7 +23,10 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Nav />
+        <Nav 
+          score={this.state.score}
+          topscore={this.state.topscore}
+        />
         <Container>
           {this.state.data.map( character => (
             <Card 
@@ -31,10 +36,10 @@ class App extends Component {
               clicked={character.clicked}
               handleClick={this.handleClick}
             />
-          ))};
+          ))}
         </Container>
       </Wrapper>
-  );}};
+  )}}
   
 
 
