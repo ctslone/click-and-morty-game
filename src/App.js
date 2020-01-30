@@ -5,7 +5,7 @@ import Container from "./Components/Container";
 import Card from "./Components/Card";
 import data from "./data.json"
 
-import EventlyNav from "./Components/EventlyNav"
+// import EventlyNav from "./Components/EventlyNav"
 import "./App.css";
 
 class App extends Component {
@@ -13,11 +13,32 @@ class App extends Component {
   state = {
     data: data,
     score: 0,
-    topscore: 0
+    topscore: 0,
+    beenClicked: []
   }
 
   handleClick = id => {
     console.log("clicked", id)
+    this.setState({
+      beenClicked: this.state.beenClicked.concat(id)
+    })
+    if(this.state.beenClicked.includes(id)) {
+      // console.log("false")
+      this.setState({
+        score: 0,
+        beenClicked: []
+      })
+    }
+    else {
+      this.setState({
+        score: this.state.score + 1
+      })
+      if (this.state.score >= this.state.topscore) {
+        this.setState({
+          topscore: this.state.topscore +1
+        })
+      }
+    }
   }
 
   render() {
