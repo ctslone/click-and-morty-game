@@ -14,7 +14,8 @@ class App extends Component {
     data: data,
     score: 0,
     topscore: 0,
-    beenClicked: []
+    beenClicked: [],
+    status: "Click and character to begin!"
   }
 
   handleClick = id => {
@@ -36,13 +37,15 @@ class App extends Component {
     if(this.state.beenClicked.includes(id)) {
       this.setState({
         score: 0,
-        beenClicked: []
+        beenClicked: [],
+        status: "Game over!"
       })
     }
     // otherwise, it is a correct guess so increase the current score by one and the top score by one only once the current score is greater than or equal to the top score
     else {
       this.setState({
-        score: this.state.score + 1
+        score: this.state.score + 1,
+        status: "Keep it up!"
       })
       if (this.state.score >= this.state.topscore) {
         this.setState({
@@ -56,6 +59,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Nav 
+          status={this.state.status}
           score={this.state.score}
           topscore={this.state.topscore}
         />

@@ -10,7 +10,7 @@ function Nav(props) {
                     <li className="brand">
                         <a href="/">Click-and-Morty</a>
                     </li>
-                    <li>Click on an image to begin!</li>
+                    <li>{props.status}</li>
                     <li>Score: {props.score} | Top Score: {props.topscore}</li>
                 </ul>
             </nav>
