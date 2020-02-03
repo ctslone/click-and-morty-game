@@ -18,17 +18,28 @@ class App extends Component {
   }
 
   handleClick = id => {
-    console.log("clicked", id)
+    // console.log("clicked", id)
+    // implementing fisher yates shuffle to get truly random array shuffle
+    for (let i = this.state.data.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [this.state.data[i], this.state.data[j]] = [this.state.data[j], this.state.data[i]];
+      // console.log(this.state.data)
+      this.setState({
+        data: this.state.data
+      })
+    }
+    // adding the clicked character id to the beenClicked array inside state
     this.setState({
       beenClicked: this.state.beenClicked.concat(id)
     })
+    // if the beenClicked array includes the id of the character that was just clicked, you lose and the score goes to 0 and the beenClicked array resets to empty
     if(this.state.beenClicked.includes(id)) {
-      // console.log("false")
       this.setState({
         score: 0,
         beenClicked: []
       })
     }
+    // otherwise, it is a correct guess so increase the current score by one and the top score by one only once the current score is greater than or equal to the top score
     else {
       this.setState({
         score: this.state.score + 1
