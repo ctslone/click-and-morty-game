@@ -16,7 +16,7 @@ If you would like to clone this game to your machine, simply clone the reposiito
 
 ## Mobile Friendly
 
-This React game is fully mobile responsive, yo you can view it on your phone, tablet or desktop.
+This React game is fully mobile responsive, so you can view it on your phone, tablet or desktop.
 
 Feel free to open the app on your favorite mobile device or use the developer tools in your favorite browser to view the mobile layout
 
