@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0e288bf4480c6bc7db81363a838c0d7",
+    "revision": "74f422f669334343f305b387b1898c99",
     "url": "/click-and-morty-game/index.html"
   },
   {
-    "revision": "9937e04022ec6b63ad7d",
+    "revision": "0d67eb8edc0c6c267c64",
     "url": "/click-and-morty-game/static/css/main.1579ebf5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/click-and-morty-game/static/js/2.6d3a0aa6.chunk.js.LICENSE"
   },
   {
-    "revision": "9937e04022ec6b63ad7d",
-    "url": "/click-and-morty-game/static/js/main.31c37cce.chunk.js"
+    "revision": "0d67eb8edc0c6c267c64",
+    "url": "/click-and-morty-game/static/js/main.4256b183.chunk.js"
   },
   {
     "revision": "91e96ede5e7314d4fffb",

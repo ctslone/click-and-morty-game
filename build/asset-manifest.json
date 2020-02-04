@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/click-and-morty-game/static/css/main.1579ebf5.chunk.css",
-    "main.js": "/click-and-morty-game/static/js/main.31c37cce.chunk.js",
-    "main.js.map": "/click-and-morty-game/static/js/main.31c37cce.chunk.js.map",
+    "main.js": "/click-and-morty-game/static/js/main.4256b183.chunk.js",
+    "main.js.map": "/click-and-morty-game/static/js/main.4256b183.chunk.js.map",
     "runtime-main.js": "/click-and-morty-game/static/js/runtime-main.23b4e50e.js",
     "runtime-main.js.map": "/click-and-morty-game/static/js/runtime-main.23b4e50e.js.map",
     "static/js/2.6d3a0aa6.chunk.js": "/click-and-morty-game/static/js/2.6d3a0aa6.chunk.js",
     "static/js/2.6d3a0aa6.chunk.js.map": "/click-and-morty-game/static/js/2.6d3a0aa6.chunk.js.map",
     "index.html": "/click-and-morty-game/index.html",
-    "precache-manifest.8a67234b05e8112d5753c1e008a97cde.js": "/click-and-morty-game/precache-manifest.8a67234b05e8112d5753c1e008a97cde.js",
+    "precache-manifest.5d6c312280e6eeceed7cb57531661ddf.js": "/click-and-morty-game/precache-manifest.5d6c312280e6eeceed7cb57531661ddf.js",
     "service-worker.js": "/click-and-morty-game/service-worker.js",
     "static/css/main.1579ebf5.chunk.css.map": "/click-and-morty-game/static/css/main.1579ebf5.chunk.css.map",
     "static/js/2.6d3a0aa6.chunk.js.LICENSE": "/click-and-morty-game/static/js/2.6d3a0aa6.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.23b4e50e.js",
     "static/js/2.6d3a0aa6.chunk.js",
     "static/css/main.1579ebf5.chunk.css",
-    "static/js/main.31c37cce.chunk.js"
+    "static/js/main.4256b183.chunk.js"
   ]
 }
