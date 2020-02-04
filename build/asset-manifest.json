@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clikc-and-morty/static/css/main.59d49489.chunk.css",
+    "main.js": "/clikc-and-morty/static/js/main.57749e8e.chunk.js",
+    "main.js.map": "/clikc-and-morty/static/js/main.57749e8e.chunk.js.map",
+    "runtime-main.js": "/clikc-and-morty/static/js/runtime-main.e77f8170.js",
+    "runtime-main.js.map": "/clikc-and-morty/static/js/runtime-main.e77f8170.js.map",
+    "static/js/2.6d3a0aa6.chunk.js": "/clikc-and-morty/static/js/2.6d3a0aa6.chunk.js",
+    "static/js/2.6d3a0aa6.chunk.js.map": "/clikc-and-morty/static/js/2.6d3a0aa6.chunk.js.map",
+    "index.html": "/clikc-and-morty/index.html",
+    "precache-manifest.1158d8ce5b2e4cb46fca847b744aa174.js": "/clikc-and-morty/precache-manifest.1158d8ce5b2e4cb46fca847b744aa174.js",
+    "service-worker.js": "/clikc-and-morty/service-worker.js",
+    "static/css/main.59d49489.chunk.css.map": "/clikc-and-morty/static/css/main.59d49489.chunk.css.map",
+    "static/js/2.6d3a0aa6.chunk.js.LICENSE": "/clikc-and-morty/static/js/2.6d3a0aa6.chunk.js.LICENSE",
+    "static/media/style.css": "/clikc-and-morty/static/media/title-image.6d7482e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e77f8170.js",
+    "static/js/2.6d3a0aa6.chunk.js",
+    "static/css/main.59d49489.chunk.css",
+    "static/js/main.57749e8e.chunk.js"
+  ]
+}

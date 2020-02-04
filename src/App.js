@@ -52,6 +52,9 @@ class App extends Component {
           topscore: this.state.topscore +1
         })
       }
+      if (this.state.score === 11) {
+        alert("Great job! Yoy guessed correctly every time!")
+      }
     }
   }
 
