@@ -5,7 +5,7 @@ Do you like Rick and Morty? Do you like memory games? Even if you don't know wha
 ## Getting Started
 
 Want to try it out?
-Just follow this link: [Click and Morty](https://click-and-morty.herokuapp.com/)
+Just follow this link: [Click and Morty](https://ctslone.github.io/click-and-morty-game/)
 
 * Start the game by clicking on any of the 12 characters.
 * Each character you click adds one point to your score, but you can only click a character ONCE.
